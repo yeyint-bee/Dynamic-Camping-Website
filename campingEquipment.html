@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Equipment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script>
+        let menu=document.querySelector('#menu-icon');
+        let navbar=document.querySelector('.navbar');
+    
+        menu.onclick = () => {
+            navbar.classList.toggle('active');
+        }
+    
+        window.onscroll = () => {
+            navbar.classList.remove('active');
+        }
+    
+        function sentAlert(){
+                alert("Successfully Sent Message!")
+            }
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="home.html" class="logo">Retail <span>Camping</span> Company</a>
+        <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campingEquipment.html">Camping Equipment</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="offers&packages.html">Offers & Packages</a></li>
+        </ul>
+    </header>
+
+    <div class="second-navbar">
+        <div class="navbar-equipment">
+            <a href="#tent" class="s-btn">Tents</a> 
+            <a href="#cookers" class="s-btn">Cookers</a> 
+            <a href="#cookware" class="s-btn">Cookware</a>
+            <a href="#fridge" class="s-btn">Fridges</a>
+        </div>
+    </div>
+
+    <section class="choice-navbar">
+        <div class="title">
+            <span>Welocme to Retail Camping</span>
+            <h1>Camping Equipment</h1>
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+                <a href="#" class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            </form>
+        </div>
+    </section>
+
+    <section class="video-CE">
+
+        <div class="heading">
+            <span>Reviews Video For Tent</span>
+            <h2>Show Camping Tent Setup</h2>
+        </div>
+
+         <!-- video-1 -->
+         <div class="box-v-ce">
+            <iframe src="https://www.youtube.com/embed/kzQoQLRpGWo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+    </section>
+
+    <section class="tent" id="tent" >
+        <div class="heading">
+            <span>Camping Tents</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+            <!-- box-1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent1.jpg" alt="Blue Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Blue Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="tap-box">
+                    <p><span class="dsc">$199</span> $180</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent2.jpeg" alt="Orange Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Orange Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="tap-box">
+                    <p><span class="dsc">$200</span> $190</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent3.webp" alt="Vogo Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Vogo Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$210</span> $200</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent4.jpeg" alt="Kampa Kielder 5 Air Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Kielder 5 Air Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$510</span> $499</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent5.jpeg" alt="Vango Lomond II 500 Family Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Lomond II 500 <br> Family Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$310</span> $299</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent6.jpeg" alt="Vango Keswick II 600 Family Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Keswick II <br> 600 Family Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+               
+                <div class="tap-box">
+                    <p><span class="dsc">$490</span> $478</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cookers-slide -->
+
+    <section class="cookers" id="cookers" >
+        <div class="heading">
+            <span>Camping Cookers</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+          
+
+            <!-- Cookers -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker1.jpeg" alt="Camp Chef Everest 2 Burner Stove">
+                </div>
+                <div class="title-price">
+                    <h3>Camp Chef Everest 2 <br> Burner Stove</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$259</span> $240</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker2.jpg" alt="Outdoor Camping Stove">
+                </div>
+                <div class="title-price">
+                    <h3>Outdoor Camping Stove</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$130</span> $123</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker3.webp" alt="Gas One GS-3400P Propane">
+                </div>
+                <div class="title-price">
+                    <h3>Gas One GS-3400P Propane</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$75</span> $70</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker4.jpeg" alt="Campingaz 600 Double Burner And Grill">
+                </div>
+                <div class="title-price">
+                    <h3>Campingaz 600 Double <br> Burner And Grill</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$145</span> $139</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker5.jpeg" alt="Campingaz Bleuet Micro Stove">
+                </div>
+                <div class="title-price">
+                    <h3>Campingaz Bleuet Micro Stove</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$20</span> $15</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker6.jpeg" alt="Campingaz Series 400 S Double Burner">
+                </div>
+                <div class="title-price">
+                    <h3>Campingaz Series 400 S <br> Double Burner</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$95</span> $89</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cookware-slide -->
+
+    <section class="cookware" id="cookware" >
+        <div class="heading">
+            <span>Camping Cookware</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+
+            <!-- Cookware -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware1.jpg" alt="Camping cookware set 1">
+                </div>
+                <div class="title-price">
+                    <h3>Camping cookware set 1</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$30</span> $21</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware2.jpeg" alt="Camping cookware set 2">
+                </div>
+                <div class="title-price">
+                    <h3>Camping cookware set 2</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$29</span> $22</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware3.jpeg" alt="Camping cookware set 3">
+                </div>
+                <div class="title-price">
+                    <h3>Camping cookware set 3</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$31</span> $23</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware5.jpg" alt="KingCamp 17/25 PCS Stainless Steel Camping Cookware Mess Kit">
+                </div>
+                <div class="title-price">
+                    <h3>KingCamp 17/25 PCS Stainless <br> Steel Camping Cookware Mess Kit</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$94</span> $89</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware4.jpeg" alt="Vango Gourmet Cook Set">
+                </div>
+                <div class="title-price">
+                    <h3>
+                        Vango Gourmet Cook Set</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$45</span> $39</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware6.jpg" alt="GSI Outdoors - Pinnacle Base Camper">
+                </div>
+                <div class="title-price">
+                    <h3>GSI Outdoors - Pinnacle <br> Base Camper</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$50</span> $45</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Furniture-slide -->
+
+    <section class="fridge" id="fridge" >
+        <div class="heading">
+            <span>Camping Fridges</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+        
+            <!-- Furniture -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-1.jpeg" alt="YETI Hopper Flip 12 Soft Cooler">
+                </div>
+                <div class="title-price">
+                    <h3>YETI Hopper Flip 12 Soft Cooler</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$250</span> $142</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-2.jpeg" alt="YETI Tundra 45 Hard Cooler">
+                </div>
+                <div class="title-price">
+                    <h3>YETI Tundra 45 Hard Cooler</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$45</span> $39</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-3.jpeg" alt="Vango Pinnacle Wheelie Cooler 45L - 100Hr">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Pinnacle Wheelie <br> Cooler 45L - 100Hr</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$106.00</span> $74.99</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-4.jpeg" alt="Eddie Bauer Bygone Backpack Cooler - 20L">
+                </div>
+                <div class="title-price">
+                    <h3>Eddie Bauer Bygone <br> Backpack Cooler - 20L</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$30</span> $24</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-5.jpeg" alt="Eddie Bauer Bygone Convertible Cooler Tote Bag">
+                </div>
+                <div class="title-price">
+                    <h3>Eddie Bauer Bygone Convertible <br> Cooler Tote Bag</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$68</span> $50</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-6.jpeg" alt="Vango Pinnacle Wheelie Cooler 30L - 72Hr">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Pinnacle Wheelie <br> Cooler 30L - 72Hr</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$70</span> $50</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pdf-file">
+        <div class="heading">
+            <span>Camping Activity Benefit and Suggestion</span>
+            <h2>Read Now</h2>
+        </div>
+        <div class="plug-pdf">
+            <object data="Camping_Activity_Benefit_and_Suggestion.pdf"></object>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Filter Element
+    Scroll indicator
+    user rating
+    Product card
+    Coupon 
+    Toggle Dark Mode -->
+
+<footer>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Retail <span>Camping</span> Company</h2>
+            <p>
+                We have a huge range of camping equipment, supplies and accessories to ensure every camper has everything they need for memorable trips away. When you browse through our extensive camping range, you’ll be welcomed with a variety of products that are suitable for all types of camping.
+            </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+          
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li><a href="#">Camp Tent</a></li>
+                <li><a href="#">Cookers</a></li>
+                <li><a href="#">Cookware</a></li>
+                <li><a href="#">Furniture</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>New York City, USA 10004</span>
+            <span>+1 100 1004 0001</span>
+            <span class="mail"><i class="fa-regular fa-envelope"></i> <a href="https://mail.google.com/" target="_blank">rcc@rcc.com.mm</a></span>
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p> Copyright &#169; 2023 Retail Camping Company. All rights reserved. & <a href="https://www.winfieldsoutdoors.co.uk/camping/">winfield soutdoors website.</a></p>
+    </div>
+
+</footer>
+   
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <script>
+        function sentAlert(){
+                alert("Successfully Sent Message!")
+            }
+    </script>
+</head>
+<body>
+
+     <!-- Navbar -->
+     <header>
+        <a href="home.html" class="logo">Retail <span>Camping</span> Company</a>
+        <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campingEquipment.html">Camping Equipment</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="offers&packages.html">Offers & Packages</a></li>
+        </ul>
+    </header>
+
+    <section class="choice-navbar">
+        <div class="title">
+            <span>Welocme to Retail Camping Company</span>
+            <h1>Reviews</h1>
+        </div>
+    </section>
+
+
+    <section class="review-form">
+
+        <!-- Form Section -->
+   <div class="form-container">
+       <h3 class="sub_h3">Fill In The Form For Assistance</h3>
+       <form action="#">
+           <label for="fname"><i class="fa-regular fa-user"></i> First Name :</label>
+           <input type="text" id="fname" name="firstname" placeholder="Your name..">
+           <label for="lname"><i class="fa-regular fa-user"></i> Last Name :</label>
+           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           <label for="email"><i class="fa-regular fa-envelope"></i> Email Address :</label>
+           <input type="email" id="email" name="email" placeholder="Your email address..">
+           <label for="selectCountry"><i class="fa-regular fa-flag"></i> Select Your Description :</label>
+           <select name="country" id="selectCountry">
+               <option value="Myanmar">Excellent</option>
+               <option value="">Good Price</option>
+               <option value="">Not Bad</option>
+               <option value="">Perfect product</option>
+               <option value="Japan">How to payment money.</option>
+          
+           </select>
+
+           <label for="subject"><i class="fa-regular fa-address-book"></i> Subject</label>
+           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+           <div class="submit-button">
+               <input type="submit" onclick="sentAlert()" value="Submit">
+               <input type="reset" value="Reset">
+           </div>
+       </form>
+   </div>
+
+   </section>
+
+
+    <section class="review">
+
+        <div class="star-rating-d1">
+            <h2>12 reviews</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+
+                <p>4.5 /5</p>
+            </div>
+        </div>
+
+        <div class="star-rating-d2">
+
+            <div class="response-customer">
+                <h3>Michelle Davies, <span>23 September</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <p>5 / 5</p>
+                    </div>
+                <p class="text">Bought my husband one a few weeks ago and it’s strong robust and very comfortable to sit down on</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Maxwell, <span>4 August</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>3.5 / 5</p>
+                    </div>
+                <p class="text">Sturdy yet relatively lightweight. Comfortable and lots of recline settings</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Stella Renwick, <span>28 October</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <p>4.5 / 5</p>
+                    </div>
+                <p class="text">Really good sturdy table, light enough to carry with ease, easy to fold and folds nice and flat. Even looks good.</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Annie Fourie, <span>3 October</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <p>5 / 5</p>
+                    </div>
+                <p class="text">Great value for money</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>MUHAMMAD ZARYAB IJAZ, <span>4 May</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <p>4.5 / 5</p>
+                    </div>
+                <p class="text">thank you for the best product</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Marie, <span>27 June</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>4 / 5</p>
+                    </div>
+                <p class="text">Easy to set up. Comfortable. The only downside, mainly due to the size of the interior of the tent, the corners can be a bit sharp when trying to walk around them.</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>C H, <span>23 July</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <p>4.5 / 5</p>
+                    </div>
+                <p class="text">Excellent product….</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Wendy, <span>14 September</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>4 / 5</p>
+                    </div>
+                <p class="text">Very impressed with packaging (comes with zipped carrying bag), ease of construction and comfort. The size of folded bed for packing into the car really pleased me-folds up smaller than two singles.</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Victoria Mills, <span>8 September</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>3.5 / 5</p>
+                    </div>
+                <p class="text">Really comfy bed, easy to put up and get down and folds up quite small.</p>
+            </div>
+
+
+            <div class="response-customer">
+                <h3>S Edwards, <span>26 July</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <p>5 / 5</p>
+                    </div>
+                <p class="text">Excited to put it up as soon as it arrived. Very well made, really sturdy frame and overall a superb bit of kit. If you're using for camping, my only criticism would be the legs and feet are not adjustable to level out the bed if you were camping on a slope, but other than that I am really pleased with bed, the quality and ease of putting it up and down. We bought the monstamat to go with it and first impressions are that its very comfortable - probably the best sleeping kit I've come across. We are yet to fully test it out hence the 4 stars but im confident it won't dissapoint.</p>
+            </div>
+
+
+            <div class="response-customer">
+                <h3>Martyn, <span>23 July</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>2.5 / 5</p>
+                    </div>
+                <p class="text">It’s fantastic when folded and even better when using it</p>
+            </div>
+
+            <div class="response-customer">
+                <h3>Alan, <span>2 September</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <p>4 / 5</p>
+                    </div>
+                <p class="text">This sleeping bag has the advantage of different thickness top and bottom which can be swapped around depending on temp. The built-in pillows are also a nice feature. Highly recommended</p>
+            </div>
+
+        </div>
+
+    </section>
+
+   
+
+
+
+<footer>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Retail <span>Camping</span> Company</h2>
+            <p>
+                We have a huge range of camping equipment, supplies and accessories to ensure every camper has everything they need for memorable trips away. When you browse through our extensive camping range, you’ll be welcomed with a variety of products that are suitable for all types of camping.
+               </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+          
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li><a href="#">Camp Tent</a></li>
+                <li><a href="#">Cookers</a></li>
+                <li><a href="#">Cookware</a></li>
+                <li><a href="#">Furniture</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>New York City, USA 10004</span>
+            <span>+1 100 1004 0001</span>
+            <span class="mail"><i class="fa-regular fa-envelope"></i> <a href="https://mail.google.com/" target="_blank">rcc@rcc.com.mm</a></span>
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p> Copyright &#169; 2023 Retail Camping Company. All rights reserved. & <a href="https://www.winfieldsoutdoors.co.uk/camping/">winfield soutdoors website.</a></p>
+    </div>
+
+</footer>
+    
+</body>
+
+</html>

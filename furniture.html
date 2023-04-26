@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script>
+        let menu=document.querySelector('#menu-icon');
+        let navbar=document.querySelector('.navbar');
+    
+        menu.onclick = () => {
+            navbar.classList.toggle('active');
+        }
+    
+        window.onscroll = () => {
+            navbar.classList.remove('active');
+        }
+    
+        function sentAlert(){
+                alert("Successfully Sent Message!")
+            }
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="home.html" class="logo">Retail <span>Camping</span> Company</a>
+        <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campingEquipment.html">Camping Equipment</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="offers&packages.html">Offers & Packages</a></li>
+        </ul>
+    </header>
+
+    <div class="second-navbar">
+        <div class="navbar-equipment">
+            <a href="#chair" class="s-btn">Chairs</a>
+            <a href="#table" class="s-btn">Tables</a>
+            <a href="#storage" class="s-btn">Storage</a>
+            <a href="#bed" class="s-btn">Beds</a>
+        </div>
+    </div>
+
+    <section class="choice-navbar">
+        <div class="title">
+            <span>Welocme to Retail Camping Company</span>
+            <h1>Camping Furniture</h1>
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+                <a href="#" class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            </form>
+        </div>
+    </section>
+
+    <!-- for video -->
+
+    <section class="video-CE">
+
+        <div class="heading">
+            <span>Reviews Video For Furniture</span>
+            <h2>Show Camping Chair Setup</h2>
+        </div>
+
+         <!-- video-1 -->
+         <div class="box-v-ce">
+            <iframe src="https://www.youtube.com/embed/KYshBgwLSRA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+    </section>
+
+    <!-- chair-slide -->
+
+    <section class="chair" id="chair" >
+        <div class="heading">
+            <span>Camping Chair</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+        
+            <!-- chair -->
+
+             <!-- Furniture -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/furniture1.jpeg" alt="Camping chair 1">
+                </div>
+                <div class="title-price">
+                    <h3>Camping chair 1</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$50</span> $42</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/furniture2.jpeg" alt="Camping chair 2">
+                </div>
+                <div class="title-price">
+                    <h3>Camping chair 2</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$45</span> $39</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/furniture3.jpeg" alt="Camping chair 3">
+                </div>
+                <div class="title-price">
+                    <h3>Camping chair 3</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$52</span> $45</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/chair1.jpeg" alt="Kampa Sandy High Back Low Chair">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Sandy High Back <br> Low Chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$30</span> $24</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/chair2.jpeg" alt="Vango Keswick Tall Reclining Chair">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Keswick Tall <br> Reclining Chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$53</span> $43</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/chair3.jpeg" alt="Highlander Kids Kelburn Folding Camp Chair">
+                </div>
+                <div class="title-price">
+                    <h3>Highlander Kids Kelburn <br> Folding Camp Chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$25</span> $19</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+     <!-- tables-slide -->
+
+     <section class="table" id="table" >
+        <div class="heading">
+            <span>Camping Tables</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+        
+            <!-- chair -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table1.jpeg" alt="Vanilla Leisure Picnic Table and 4 Stool Set">
+                </div>
+                <div class="title-price">
+                    <h3>Vanilla Leisure Picnic Table and 4 Stool Set</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$56</span> $49</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table2.jpeg" alt="Vango Granite Cypress 56 Table">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Granite Cypress 56 Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$23</span> $16</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table3.jpeg" alt="Vango Granite Duo 90 Table">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Granite Duo 90 Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$54</span> $44</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table4.jpeg" alt="Zempire Kitpac Spike Table">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire Kitpac Spike Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$58</span> $49</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table5.jpeg" alt="Chair and table related">
+                </div>
+                <div class="title-price">
+                    <h3>Chair and table related</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$63</span> $55</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table6.jpeg" alt="Quest Superlite Shipston olding Table">
+                </div>
+                <div class="title-price">
+                    <h3>Quest Superlite Shipston <br> Folding Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$32</span> $24</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- Storage-slide -->
+
+     <section class="storage" id="storage" >
+        <div class="heading">
+            <span>Camping Storage</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+        
+            <!-- Storage -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage1.jpeg" alt="Kampa Rosie Storage Cupboard">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Rosie Storage <br> Cupboard</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$47</span> $39</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage2.jpeg" alt="Vango Folding Organiser">
+                </div>
+                <div class="title-price">
+                    <h3>Vango Folding Organiser</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$26</span> $17</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage3.jpeg" alt="Zempire Eco Fold Twin Storage Cupboard V2">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire Eco Fold Twin <br> Storage Cupboard V2</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$185</span> $179</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage4.jpeg" alt="Outdoor Revolution Family Camp Wardrobe">
+                </div>
+                <div class="title-price">
+                    <h3>Outdoor Revolution Family <br> Camp Wardrobe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$111</span> $99</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage5.jpeg" alt="Isabella Double Folding Storage Cupboard">
+                </div>
+                <div class="title-price">
+                    <h3>Isabella Double Folding <br> Storage Cupboard</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$154</span> $145</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage6.jpeg" alt="Outwell Milos Storage Cupboard">
+                </div>
+                <div class="title-price">
+                    <h3>Outwell Milos Storage <br> Cupboard</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$72</span> $64</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+     <!-- Beds-slide -->
+
+     <section class="bed" id="bed" >
+        <div class="heading">
+            <span>Camping Beds</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+        
+            <!-- Beds -->
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed1.jpeg" alt="Quest Ragley Pro Lounger with Side Table">
+                </div>
+                <div class="title-price">
+                    <h3>Quest Ragley Pro Lounger <br> with Side Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$103</span> $96</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed2.jpeg" alt="Zempire Speedy Twin Campbed">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire Speedy Twin Campbed</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$127</span> $119</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed3.jpeg" alt="Black Twin campbed">
+                </div>
+                <div class="title-price">
+                    <h3>Black Twin campbed</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$154</span> $146</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed4.jpeg" alt="Quest Bordeaux Pro Lounger with Side Table">
+                </div>
+                <div class="title-price">
+                    <h3>Quest Bordeaux Pro Lounger <br> with Side Table</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$120</span> $116</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed5.jpeg" alt="Zempire W Leg Stretcher V2">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire W Leg Stretcher V2</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$67</span> $59</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed6.jpeg" alt="Zempire W Leg Stretcher V1">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire W Leg Stretcher V1</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$62</span> $57</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pdf-file">
+        <div class="heading">
+            <span>Camping Funny Post On <span class="facebook">facebook</span></span>
+            <h2>When you already prepared for camping  but  Mom  didn't  allow </h2>
+        </div>
+        <div class="plug-pdf">
+            <embed src="./images/camping-funny.jpeg">
+        </div>
+    </section>
+
+
+    <!-- Filter Element
+    Scroll indicator
+    user rating
+    Product card
+    Coupon 
+    Toggle Dark Mode -->
+
+<footer>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Retail <span>Camping</span> Company</h2>
+                <p>
+                We have a huge range of camping equipment, supplies and accessories to ensure every camper has everything they need for memorable trips away. When you browse through our extensive camping range, you’ll be welcomed with a variety of products that are suitable for all types of camping.
+                </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+          
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li><a href="#">Camp Tent</a></li>
+                <li><a href="#">Cookers</a></li>
+                <li><a href="#">Cookware</a></li>
+                <li><a href="#">Furniture</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>New York City, USA 10004</span>
+            <span>+1 100 1004 0001</span>
+            <span class="mail"><i class="fa-regular fa-envelope"></i> <a href="https://mail.google.com/" target="_blank">rcc@rcc.com.mm</a></span>
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p> Copyright &#169; 2023 Retail Camping Company. All rights reserved. & <a href="https://www.winfieldsoutdoors.co.uk/camping/">winfield soutdoors website.</a></p>
+    </div>
+
+</footer>
+   
+</body>
+
+</html>

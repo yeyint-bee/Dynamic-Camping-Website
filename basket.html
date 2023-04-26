@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script>
+        function sentAlert(){
+                alert("Successfully Sent Message!")
+            }
+
+        function remove(){
+            alert("Sorry,can not remove!")
+        }
+        function login(){
+            alert(" You need to Login")
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="home.html" class="logo">Retail <span>Camping</span> Company</a>
+        <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campingEquipment.html">Camping Equipment</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="offers&packages.html">Offers & Packages</a></li>
+        </ul>
+    </header>
+
+   
+
+    <section class="choice-navbar">
+        <div class="title">
+            <span>Welocme to Retail Camping</span>
+            <h1>Basket</h1>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <h1>Shopping Basket</h1>
+        
+        <div class="cart">
+
+            <div class="products">
+
+                <div class="product">
+                    <img src="./camping/tent5.jpeg" alt="Kampa Kielder 5 Air Tent">
+                    <div class="product-info">
+                        <h3 class="product-name">Kampa Kielder 5 Air Tent</h3>
+                        <h4 class="product-price">$ 499</h4>
+                        <h4 class="product-offer">30%</h4>
+                        <p class="product-quantity">Qnt: <input value="1">
+                        <a href="#" class="product-remove">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                            <span class="remove" onclick="remove()">Remove</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="product">
+                    <img src="./cookers/cooker1.jpeg" alt="Camp Chef Everest 2
+                    Burner Stove">
+                    <div class="product-info">
+                        <h3 class="product-name">Camp Chef Everest 2
+                            Burner Stove</h3>
+                        <h4 class="product-price">$ 259</h4>
+                        <h4 class="product-offer">20%</h4>
+                        <p class="product-quantity">Qnt: <input value="2">
+                        <a href="#" class="product-remove">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                            <span class="remove" onclick="remove()" >Remove</span>
+                        </a>
+                    </div>
+                </div>
+
+                
+
+                <div class="product">
+                    <img src="./Cookware/cookware3.jpeg" alt="Camping cookware set 3">
+                        <div class="product-info">
+                            <h3 class="product-name">Camping cookware set 3</h3>
+                            <h4 class="product-price">$ 23</h4>
+                            <h4 class="product-offer">50%</h4>
+                            <p class="product-quantity">Qnt: <input value="1">
+                            <a href="#" class="product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove" onclick="remove()">Remove</span>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="product">
+                        <img src="./Cookware/cookware4.jpeg" alt="KingCamp 17/25 PCS Stainless
+                        Steel Camping Cookware Mess Kit">
+                        <div class="product-info">
+                            <h3 class="product-name">KingCamp 17/25 PCS Stainless
+                                Steel Camping Cookware Mess Kit</h3>
+                            <h4 class="product-price">₹ 89</h4>
+                            <h4 class="product-offer">40%</h4>
+                            <p class="product-quantity">Qnt: <input value="1">
+                            <a href="#" class="product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove" onclick="remove()">Remove</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./tables/table1.jpeg" alt="Vanilla Leisure Picnic Table and 4 Stool Set">
+                        <div class="product-info">
+                            <h3 class="product-name">Vanilla Leisure Picnic Table and 4 Stool Set</h3>
+                            <h4 class="product-price">$ 49</h4>
+                            <h4 class="product-offer">10%</h4>
+                            <p class="product-quantity">Qnt: <input value="1">
+                            <a href="#" class="product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove" onclick="remove()">Remove</span>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="product">
+                        <img src="./storage/storage5.jpeg" alt="Isabella Double Folding
+                        Storage Cupboard">
+                        <div class="product-info">
+                            <h3 class="product-name">Isabella Double Folding
+                                Storage Cupboard</h3>
+                            <h4 class="product-price">$145</h4>
+                            <h4 class="product-offer">30%</h4>
+                            <p class="product-quantity">Qnt: <input value="2">
+                            <a href="#" class="product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove" onclick="remove()">Remove</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./beds/bed2.jpeg" alt="Zempire Speedy Twin Campbed">
+                        <div class="product-info">
+                            <h3 class="product-name">Zempire Speedy Twin Campbed</h3>
+                            <h4 class="product-price">$119</h4>
+                            <h4 class="product-offer">20%</h4>
+                            <p class="product-quantity">Qnt: <input value="1">
+                            <a href="#" class="product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove" onclick="remove()">Remove</span>
+                            </a>
+                        </div>
+                    </div>
+    
+            </div>
+    
+            <div class="cart-total">
+    
+                <p>
+                    <span>Total Price</span>
+                    <span>$ 1,442</span>
+                </p>
+    
+                <p>
+                    <span>Number of Items</span>
+                    <span>9</span>
+                </p>
+    
+                <p>
+                    <span>You Save</span>
+                    <span>$ 1,000</span>
+                </p>
+    
+                <a href="#" onclick="login()">Proceed to Checkout</a>
+    
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Filter Element
+    Scroll indicator
+    user rating
+    Product card
+    Coupon 
+    Toggle Dark Mode -->
+
+
+<footer>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Retail <span>Camping</span> Company</h2>
+            <p>
+             We have a huge range of camping equipment, supplies and accessories to ensure every camper has everything they need for memorable trips away. When you browse through our extensive camping range, you’ll be welcomed with a variety of products that are suitable for all types of camping.
+            </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+          
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li><a href="#">Camp Tent</a></li>
+                <li><a href="#">Cookers</a></li>
+                <li><a href="#">Cookware</a></li>
+                <li><a href="#">Furniture</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>New York City, USA 10004</span>
+            <span>+1 100 1004 0001</span>
+            <span class="mail"><i class="fa-regular fa-envelope"></i> <a href="https://mail.google.com/" target="_blank">rcc@rcc.com.mm</a></span>
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p> Copyright &#169; 2023 Retail Camping Company. All rights reserved. & <a href="https://www.winfieldsoutdoors.co.uk/camping/">winfield soutdoors website.</a></p>
+    </div>
+
+</footer>
+   
+</body>
+
+</html>

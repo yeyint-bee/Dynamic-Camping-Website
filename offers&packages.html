@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers&Packages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script>
+        let menu=document.querySelector('#menu-icon');
+        let navbar=document.querySelector('.navbar');
+    
+        menu.onclick = () => {
+            navbar.classList.toggle('active');
+        }
+    
+        window.onscroll = () => {
+            navbar.classList.remove('active');
+        }
+    
+        function sentAlert(){
+                alert("Successfully Sent Message!")
+            }
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="home.html" class="logo">Retail <span>Camping</span> Company</a>
+        <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campingEquipment.html">Camping Equipment</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="offers&packages.html">Offers & Packages</a></li>
+        </ul>
+    </header>
+
+    <div class="second-navbar">
+        <div class="navbar-equipment">
+            <a href="#offer" class="s-btn">Offers</a>
+            <a href="#package" class="s-btn">Packages</a>
+        </div>
+    </div>
+
+    <section class="choice-navbar">
+        <div class="title">
+            <span>Welocme to Retail Camping</span>
+            <h1>Special Offers Camping Equipments</h1>
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+                <a href="#" class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            </form>
+        </div>
+    </section>
+
+
+   
+        
+
+    <section class="offer" id="offer" >
+        <div class="heading">
+            <h1> <span>Offers Equipments</span></h1>
+            <h2>The Best Selling Camping Equipments</h2>
+        </div>
+        <!-- content -->
+
+        <div class="shop-container-OP">
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./camping/tent4.jpeg" alt="Kampa Kielder 5 Air Tent">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Kielder 5 Air Tent</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$510</span> $499</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./cookers/cooker5.jpeg" alt="Campingaz Bleuet Micro Stove">
+                </div>
+                <div class="title-price">
+                    <h3>Campingaz Bleuet Micro Stove</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$20</span> $15</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./Cookware/cookware4.jpeg" alt="Vango Gourmet Cook Set">
+                </div>
+                <div class="title-price">
+                    <h3>
+                        Vango Gourmet Cook Set</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$45</span> $39</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+            <!-- box-1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./storage/storage1.jpeg" alt="Kampa Rosie Storage Cupboard">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Rosie Storage <br> Cupboard</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$47</span> $39</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+            
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./beds/bed2.jpeg" alt="Zempire Speedy Twin Campbed">
+                </div>
+                <div class="title-price">
+                    <h3>Zempire Speedy Twin Campbed</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$127</span> $119</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./furniture/chair1.jpeg" alt="Kampa Sandy High Back Low Chair">
+                </div>
+                <div class="title-price">
+                    <h3>Kampa Sandy High Back <br> Low Chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$30</span> $24</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+            <!-- box-5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./tables/table5.jpeg" alt="Chair and table related">
+                </div>
+                <div class="title-price">
+                    <h3>Chair and table related</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$63</span> $55</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+
+             <!-- box-1 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./fridge/cooler-1.jpeg" alt="YETI Hopper Flip 12 Soft Cooler">
+                </div>
+                <div class="title-price">
+                    <h3>YETI Hopper Flip 12 Soft Cooler</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="tap-box">
+                    <p><span class="dsc">$250</span> $142</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+
+
+           
+        </div>
+
+    </section>
+
+  
+
+
+
+   
+
+
+    <!-- Packages -->
+
+    <section class="package" id="package" >
+        <div class="heading">
+            <h1><span>Packages Equipments</span></h1>
+            <h2>Best Camping Packages & Tent Bundles</h2>
+        </div>
+        <!-- content -->
+        <div class="shop-container">
+            <!-- box-1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-1.jpg" alt="Camping Kitchen Utensil Set">
+                </div>
+                <div class="title-price">
+                    <h3>Camping Kitchen Utensil Set</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>Having a dedicated set of kitchen utensils for camping can make cooking on your trip a lot more convenient. You won’t have to scrounge for miscellaneous silverware before your trip, and the utensils included are often smaller and lighter weight, so they’re much more fitting for a camping trip.This one is a twenty-seven piece camping utensil set made of stainless steel. It includes a cutting board, paring knife, chef’s knife, corkscrew, barbecue fork, ladle, scissors, skewers, and four forks, spoons and butter knives. It comes with a carrying case that makes packing, unpacking, and storing easy and safe.</p>
+                </div>
+
+                <div class="tap-box">
+                    <p><span class="dsc">$199</span> $180</p>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-2.jpg" alt="Camping Cookware">
+                </div>
+                <div class="title-price">
+                    <h3>Camping Cookware</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>
+                        I remember when I used to take a big cast-iron skillet with me whenever I went camping. It’s versatile, cooks well, and is easy to clean, but is so, so heavy – not to mention virtually unpackable. Now I use a camping cookware set. They’re made with campers in mind, which makes them lighter and more compact.This set made by Stanley is one of the ones I use, and I have nothing but good things to say about it. It includes a 35 liter pot with a vented lid, a frying pan, a cutting board, a spatula, a serving spoon, four 6 inch plates, four 22 ounce bowls, and more. My favorite things about it, and the main reasons I bought it, are that it’s made of stainless steel rather than aluminum and it’s completely nestable in the 35 liter pot, which makes carrying it a breeze.
+                    </p>
+                </div>
+
+                <div class="tap-box">
+                    <p><span class="dsc">$90</span> $80</p>
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-3.jpg" alt="Trauma Bag">
+                </div>
+                <div class="title-price">
+                    <h3>Trauma Bag</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>
+                        Everyone should have a good first aid kit in my eyes, much like this one. It is extensive, and includes over 250 items, most of which are first aid gear. If you don’t need or want any more survival tools, and just need a good first aid kit, this is a great option.
+
+It includes glow sticks, burn dressings, a thermal blanket, a firestarter, antiseptic pads, tons of different sized band-aids, sting relief pads, gauze pads, PVC gloves, scissors, tweezers, a CPR mask, and more. It’s all packed in a durable military grade EMT bag made of water resistant nylon and weighs just under 2 pounds.
+                    </p>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$120</span> $100</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+
+             <!-- box-4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-4.jpg" alt="Camping Tool Set">
+                </div>
+                <div class="title-price">
+                    <h3>Camping Tool Set</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>
+                        If a multi-tool isn’t your thing, and you’d rather carry around a small set of survival tools, this is a good bundle for you. It’s a set of foldable tools, that include an axe, knife, saw, magnesium rod, hexagonal wrenches, rotary cutter, hoe, ruler, emergency whistle, safety hammer, icebreaker, and a shovel. (which is very important if you’re planning on backcountry camping – there will be no restroom in sight)
+The thing I love most about this kit is that it’s foldable, which makes it much more convenient to pack/carry around, and the whole kit weighs just under five pounds.
+It’s made of high-quality steel and aerospace-grade aluminum alloy, and comes with a crossbody storage bag.
+                    </p>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$510</span> $499</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-5.jpg" alt="Minimalist Tent Bundle">
+                </div>
+                <div class="title-price">
+                    <h3>Minimalist Tent Bundle</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>
+                        This Outbound Tent Set comes with only six items, so if you’re looking for a bare-bones tent bundle with a large tent, this is the one for you.
+
+It comes with a five-person tent and rain fly, two sleeping bags, two camping chairs, and one cooler. The tent is spacious and is constructed with fiberglass poles that are both durable and easy to construct.
+                    </p>
+                </div>
+                
+                <div class="tap-box">
+                    <p><span class="dsc">$210</span> $200</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+             <!-- box-3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="./packages/p-6.jpg" alt="Extensive Tent Bundle">
+                </div>
+                <div class="title-price">
+                    <h3>Extensive Tent Bundle</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>
+                        Of all the tent bundles I found, this one came with the most supplies. If you’re only looking to make a few purchases, and want to buy almost everything in a bundle, this is the kit for you.
+
+It comes with a six-person tent, nine tent stakes, two sleeping bags, two pillows, two foam sleeping pads, two chairs, two dry bags, two towels, a gear loft, a media pocket, a lantern, a portable fan, a backpack, and a carryall bag.
+
+This kit comes with everything a first-time camper needs and includes high-quality items. The tent is easy to set up, durable, comes with a removable rain fly that will waterproof the tent when needed, and is spacious enough to hold a queen-sized air mattress. The chairs are sturdy, all the other items are functional and perform their duties well, and the package is a great value.
+                    </p>
+                </div>
+               
+                <div class="tap-box">
+                    <p><span class="dsc">$490</span> $478</p>
+
+                </div>
+                <div class="box-btn">
+                    <input type="number" class="basket-qty" placeholder="Qty">
+                    <a href="basket.html" class="cart-btn">
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i> Add To Basket
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+     <!-- for video -->
+
+     <section class="video-CE">
+        <div class="heading">
+            <span>Reviews Video For Best seller</span>
+            <h2>Top 10 Camping Cookware</h2>
+        </div>
+
+         <!-- video-1 -->
+         <div class="box-v-ce">
+            <iframe src="https://www.youtube.com/embed/o78f-IAgYL4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section class="pdf-file">
+        <div class="heading">
+            <span>The Best Selling Equipments Of <span class="facebook">Camping Equipment</span></span>
+            <h2>Have fun and start your adventure trip</h2>
+        </div>
+        <div class="plug-pdf">
+            <embed src="./images/Camping-gear-equipment.png">
+        </div>
+    </section>
+
+
+    <!-- Filter Element
+    Scroll indicator
+    user rating
+    Product card
+    Coupon 
+    Toggle Dark Mode -->
+
+<footer>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Retail <span>Camping</span> Company</h2>
+            <p>
+                We have a huge range of camping equipment, supplies and accessories to ensure every camper has everything they need for memorable trips away. When you browse through our extensive camping range, you’ll be welcomed with a variety of products that are suitable for all types of camping.
+               </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+          
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li><a href="#">Camp Tent</a></li>
+                <li><a href="#">Cookers</a></li>
+                <li><a href="#">Cookware</a></li>
+                <li><a href="#">Furniture</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>New York City, USA 10004</span>
+            <span>+1 100 1004 0001</span>
+            <span class="mail"><i class="fa-regular fa-envelope"></i> <a href="https://mail.google.com/" target="_blank">rcc@rcc.com.mm</a></span>
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p> Copyright &#169; 2023 Retail Camping Company. All rights reserved. & <a href="https://www.winfieldsoutdoors.co.uk/camping/">winfield soutdoors website.</a></p>
+    </div>
+
+</footer>
+   
+</body>
+
+</html>
